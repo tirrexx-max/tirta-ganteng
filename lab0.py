@@ -22,7 +22,7 @@ tinggi = int(input("Masukkan tinggi(cm):"))
 #rumus luas segitiga
 
 sisi_miring = math.sqrt(alas**2 + tinggi**2)
-keliling = round (sisi_miring + alas + tinggi) +1
+keliling = math.ceil (sisi_miring + alas + tinggi) 
 luas= (alas*tinggi) / 2
 
 
